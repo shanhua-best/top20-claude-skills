@@ -1,0 +1,13 @@
+{
+  "name": "top20-claude-skills",
+  "version": "1.0.0",
+  "description": "Daily updated Top 20 Claude Code Skills leaderboard",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/fetch-and-generate.js",
+    "dev": "node scripts/fetch-and-generate.js --local"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
