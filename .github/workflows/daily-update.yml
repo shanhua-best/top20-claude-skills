@@ -6,7 +6,7 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch:  # 允许手动触发
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - 'scripts/fetch-and-generate.js'
       - '.github/workflows/daily-update.yml'
